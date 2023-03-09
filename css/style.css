@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecera{
+    background-color: #222222;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 24px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo h1,p{
+    margin: 0 10px;
+}
+#pizza{
+   color: #39B24A; 
+}
+#front{
+    color: #FC200C;
+}
+.cabecera .links ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 16px;
+}
+.cabecera .links li{
+    padding: 40px 13px ;
+}
+.cabecera .links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    padding: 35px 19px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+}
+.container h2{
+    color: #FC200C;
+}
+#comprando{
+    color: #fff;
+}
+.box{
+    height: 350px;
+    width: 490px;
+    margin: 15px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+#box-delivery{
+    background-image: url('../img/img-delivery.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.box-header h2{
+    text-align: center;
+
+}
+.box .box-body{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.box .box-body h3{
+    padding: 20px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: #222222;
+    color: #fff;
+}
+.footer .logo{
+    font-weight: 700;
+}
+.footer .nav-footer ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:12px;
+}
+
